@@ -36,7 +36,7 @@ Run the log analyzer from the command line by specifying the path to your log fi
 python log_analyzer.py --logfile path/to/your/logfile.log
 ```
 
-o filter the log output by a specific log level (e.g., ERROR), use the --level option:
+To filter the log output by a specific log level (e.g., ERROR), use the --level option:
 ```bash
 python log_analyzer.py --logfile path/to/your/logfile.log --level ERROR
 ```
